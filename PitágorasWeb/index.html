@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Space Cromai</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculadora do Teorema de Pitágoras</h1>
+        <p>Space Cromai Project <img src="./assets/atronaut.png" alt="astronaut icon"></p>
+    </header>
+
+
+
+    <main>
+
+        <section class="inputSection">
+
+            <div class="inputs">
+                <fieldset form="teoremaInputs">
+                    <h2>Insira dois valores</h2>
+
+                    <div>
+                        <label onclick="teoremaAClick()" for="ladoA">Lado A:</label>
+                        <input onclick="teoremaAClick()" id="ladoA" type="number" min="1" placeholder="Ex: 4">
+                    </div>
+
+                    <div>
+                        <label onclick="teoremaBClick()" for="ladoB">Lado B:</label>
+                        <input onclick="teoremaBClick()" id="ladoB" type="number" placeholder="Ex: 3">
+                    </div>
+
+                    <div>
+                        <label onclick="teoremaCClick()" for="hipotenusa">Hipotenusa (C):</label>
+                        <input onclick="teoremaCClick()" id="input3" type="number" placeholder="Ex: ?">
+                    </div>
+
+
+
+                </fieldset>
+
+                <button onclick="teoremaButtonReset(), calcular()" id="btn-calcular" class="btn-calcular">
+                    Calcular
+                </button>
+            </div>
+
+
+
+            <div class="img">
+                <img id="teorema" class="teorema" src="./assets/teorema.png" alt="">
+                <img id="teoremaA" class="teoremaHide" src="./assets/tA.png" alt="">
+                <img id="teoremaB" class="teoremaHide" src="./assets/tB.png" alt="">
+                <img id="teoremaC" class="teoremaHide" src="./assets/tC.png" alt="">
+            </div>
+
+        </section>
+
+
+
+        <section class="resultadoSection">
+
+            <h1 class="resultadoHide" id="resultadoH1Hipotenusa">O valor da Hipotenusa é:</h1>
+            <h1 class="resultadoHide" id="resultadoH1LadoA">O valor do lado A é:</h1>
+            <h1 class="resultadoHide" id="resultadoH1LadoB">O valor do lado B é:</h1>
+            <h2 class="resultadoH2Hide" id="resultadoH2">0</h2>
+
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="social-links">
+
+            <a href="https://github.com/AStiegler" target="_blank">
+                <img src="./assets/githubSvg.svg" alt="Logo do Git Hub">
+            </a>
+
+            <a href="https://www.linkedin.com/in/alan-stiegler/" target="_blank">
+                <img src="./assets/linkedinSvg.svg" alt="Logo do Linkedin">
+            </a>
+
+
+        </div>
+
+    </footer>
+
+    <script src="trianguloImg.js"></script>
+    <script src="./calculo.js"></script>
+</body>
+
+</html>

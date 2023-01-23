@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --blue-dark: #013045;
+    --blue:#0c4a5c;
+
+    --green-cromai: #22a850;
+    
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    text-align: center;
+    overflow: overlay;
+
+    font-size: 1.6rem;
+
+    background: linear-gradient(var(--blue-dark) 30%, var(--blue));
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 350px) and (max-width: 1078px) {
+
+    body {
+        background: var(--blue-dark)
+    }
+
+}

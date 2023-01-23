@@ -1,0 +1,164 @@
+main {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 20rem;
+}
+
+.inputSection {
+    display: flex;
+    align-items: center;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+
+    border: none;
+}
+
+fieldset h2 {
+    margin-bottom: 2rem;
+
+    color: var(--green-cromai);
+}
+
+fieldset label {
+    margin-bottom: 2rem;
+}
+
+fieldset input {
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+    width: 10rem;
+
+    border-radius: 0.5rem;
+    border: none;
+
+    outline: 0;
+    text-indent: 1rem;
+}
+
+fieldset #input3 {
+    width: 10rem;
+    margin-left: 1rem;
+}
+
+fieldset input:focus-within {
+    border: 2px solid;
+    border-color: var(--green-cromai);
+}
+
+fieldset div {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    color: white;
+}
+
+.teoremaHide {
+    display: none;
+}
+
+
+.btn-calcular {
+    width: 10rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    background: var(--green-cromai);
+
+    color: white;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-calcular:hover {
+    transition: 0.4s;
+    background: white;
+    color: var(--green-cromai);
+}
+
+
+.resultadoSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: -18rem;
+    height: 10rem;
+}
+
+.resultadoSection h1 {
+    font-size: 3rem;
+    color: var(--green-cromai);
+}
+
+.resultadoSection h2 {
+    font-size: 3.5rem;
+    color: white;
+}
+.resultadoH2Hide {
+    visibility: hidden;
+}
+
+.resultadoHide {
+    display: none;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 3rem;
+}
+
+.social-links img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+@media (min-width: 350px) and (max-width: 1078px) {
+
+
+    main {
+        margin-left: 0rem;
+    }
+
+    .inputSection {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0rem;
+    }
+
+    .img img {
+        width: 50rem;
+    }
+
+    .resultadoSection {
+        margin-top: 5rem;
+        margin-left: 0rem;
+    }
+
+    footer {
+        margin-bottom: 5rem;
+    }
+
+
+}
