@@ -24,7 +24,7 @@
 ## <h2 id="sobre1">Sobre</h2>
 Este projeto é uma calculadora simples, com interface responsiva, que permite calcular o valor da hipotenusa e dos catetos de um triângulo retângulo usando o Teorema de Pitágoras.<br>
 (link githubPages)######################################################
-![calculadoraWeb](./Pit%C3%A1gorasWeb/assets/calcExemplo.png)
+![calculadoraWeb](./assets/calcExemplo.png)
 
 <br>
 
@@ -65,7 +65,7 @@ Este projeto é uma API REST simples, com um endpoint para ser consumido, que pe
 
 Para criar as rotas HTTP e poder testar a API eu utilizei o Insomnia
 
-![calcAPI](./Pit%C3%A1gorasWeb/assets/apiExemplo.png)
+![calcAPI](./assets/apiExemplo.png)
 <br>
 
 ## <h2 id="tecnologias2">Tecnologias Usadas</h2>
@@ -89,16 +89,19 @@ Para criar as rotas HTTP e poder testar a API eu utilizei o Insomnia
 `/ladoBResultado` Para saber o valor do Cateto B<br>
 - No Body das requisições selecione JSON e escreva os lados de acordo com a requisição que criou<br>
 - Para saber o resultado da Hipotenusa (Lado C):<br>
-![ladoCResultado](./Pit%C3%A1gorasWeb/assets/ladoC.png)
+![ladoCResultado](./assets/ladoC.png)
 - Para saber o resultado do Lado A:<br>
-![ladoAResultado](./Pit%C3%A1gorasWeb/assets/ladoA.png)
+![ladoAResultado](./assets/ladoA.png)
 - Para saber o resultado do Lado B:<br>
-![ladoBResultado](./Pit%C3%A1gorasWeb/assets/ladoB.png)
+![ladoBResultado](./assets/ladoB.png)
 <br>
 - Altere o número roxo das imagens pelo número que desejar para fazer o cálculo
 
+- Observação:<br> ` O valor da hipotenusa não pode ser menor do que o valor de qualquer um dos catetos no triângulo retângulo `<br>
+`O valor da hipotenusa não pode ser maior do que a soma dos valores dos catetos no triângulo retângulo`
+
 - Clique em 'SEND' para enviar os valores e receber o resultado
-![ladoBResultado](./Pit%C3%A1gorasWeb/assets/valor.png)
+![ladoBResultado](./assets/valor.png)
 <br>
 <br>
 <br>
