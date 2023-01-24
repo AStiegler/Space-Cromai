@@ -12,7 +12,7 @@
 
 <h1 id="calculadoraWeb">Calculadora de Teorema de Pitágoras</h1> 
 
-<h2><a target="_blank" href="https://astiegler.github.io/Space-Cromai/">Acessar no GitHub Pages</a></h2>
+<h2><a href="https://astiegler.github.io/Space-Cromai/" target="_blank" >Acessar no GitHub Pages</a></h2>
 
 ## Índice
 - <a href="#sobre1">Sobre</a>
@@ -78,7 +78,7 @@ Para criar as rotas HTTP e poder testar a API eu utilizei o Insomnia
 
  ## <h2 id="comoUsar2">Como Usar</h2>
 
-- Com os arquivos já no seu computador, abra o terminal e acesse a pasta ''Pitágoras'''
+- Com os arquivos já no seu computador, abra o terminal e acesse a pasta onde está o projeto
 -  Instale as depêndencias necessárias usando os comandos:<br>
 ` py -3 -m env env` <br> `venv\Scripts\activate` <br> `pip install Flask`
 - Inicie o servidor usando o comando `python main.py`
