@@ -12,7 +12,7 @@
 
 <h1 id="calculadoraWeb">Calculadora de Teorema de Pitágoras</h1> 
 
-<h2><a target="_blank" href="https://astiegler.github.io/Space-Cromai/">Acessar no GitHub Pages</a></h2>
+<h2><a href="https://astiegler.github.io/Space-Cromai/" target="_blank" >Acessar no GitHub Pages</a></h2>
 
 ## Índice
 - <a href="#sobre1">Sobre</a>
