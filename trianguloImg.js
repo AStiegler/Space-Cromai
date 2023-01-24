@@ -1,4 +1,5 @@
 
+    //script para mudar a imagem do triângulo de acordo com o input que esteja selecionado
 
  teorema = document.getElementById("teorema")
  teoremaA = document.getElementById("teoremaA")

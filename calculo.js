@@ -6,6 +6,10 @@ const hipotenusa = document.getElementById("input3")
 
 
 function limparCampos() {
+    
+    /*função para limpar os inputs que foram preenchidos ao apertar o botão ''Calcular''
+     ou ao dar erro por ter preenchido os 3 inputs */ 
+
     document.getElementById("ladoA").value = "";
     document.getElementById("ladoB").value = "";
     document.getElementById("input3").value = "";
@@ -15,6 +19,8 @@ function limparCampos() {
 function calcular() {
 
 
+    //Validação para ter ao menos 2 inputs preenchidos
+    
     let inputs = document.querySelectorAll("input[type='number']");
     let preenchidos = 0;
 
@@ -32,6 +38,8 @@ function calcular() {
     }
 
 
+/*variáveis para adicionar ou remover classes no CSS para os títulos
+ dos resultados aparecerem de acordo com cada situação nos "ifs" da linha 55 em diante */
 
     const resultadoH2 = document.getElementById("resultadoH2")
 
