@@ -12,7 +12,7 @@
 
 <h1 id="calculadoraWeb">Calculadora de Teorema de Pitágoras</h1> 
 
-<h2><a href="https://astiegler.github.io/Space-Cromai/">Acessar no GitHub Pages</a></h2>
+<h2><a target="_blank" href="https://astiegler.github.io/Space-Cromai/">Acessar no GitHub Pages</a></h2>
 
 ## Índice
 - <a href="#sobre1">Sobre</a>
@@ -23,7 +23,7 @@
 
 ## <h2 id="sobre1">Sobre</h2>
 Este projeto é uma calculadora simples, com interface responsiva, que permite calcular o valor da hipotenusa e dos catetos de um triângulo retângulo usando o Teorema de Pitágoras.<br>
-<h2><a href="https://astiegler.github.io/Space-Cromai/">Acessar no GitHub Pages</a></h2>
+<h2><a target="_blank" href="https://astiegler.github.io/Space-Cromai/">Acessar no GitHub Pages</a></h2>
 
 ![calculadoraWeb](./assets/calcExemplo.png)
 
@@ -41,7 +41,7 @@ Este projeto é uma calculadora simples, com interface responsiva, que permite c
 
 ## <h2 id="comoUsar1">Como Usar</h2>
     Abra o arquivo "index.html" em um navegador ou entre diretamente pelo GitHub Pages pelo link abaixo
-<a href="https://astiegler.github.io/Space-Cromai/">https://astiegler.github.io/Space-Cromai/</a>
+<a target="_blank" href="https://astiegler.github.io/Space-Cromai/">https://astiegler.github.io/Space-Cromai/</a>
     
      Preencha dois campos(lados) com números para descobrir o valor do terceiro campo
 
@@ -108,7 +108,7 @@ Para criar as rotas HTTP e poder testar a API eu utilizei o Insomnia
 <br>
 
 # Feito por Alan Stiegler
-<h2><a href="https://www.linkedin.com/in/alan-stiegler/">Linkedin</a></h2>
+<h2><a target="_blank" href="https://www.linkedin.com/in/alan-stiegler/">Linkedin</a></h2>
      
 
 
